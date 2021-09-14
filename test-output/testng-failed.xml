@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TN Test automtion regression suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.maestroqa.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Main Test (failed)">
+    <classes>
+      <class name="com.qa.maestroqa.test.MainTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="flowOfRoiCalculatorTest"/>
+        </methods>
+      </class> <!-- com.qa.maestroqa.test.MainTest -->
+    </classes>
+  </test> <!-- Main Test (failed) -->
+</suite> <!-- Failed suite [TN Test automtion regression suite] -->
